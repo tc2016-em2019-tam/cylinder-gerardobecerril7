@@ -28,8 +28,10 @@ public class Main {
         System.out.println("Cylinder:"
                 + " radius=" + c3.getRadius()
                 + " height=" + c3.getHeight()
-                + " base area=" + c3.getArea()
+                + " base area=" + c3.getBaseArea()
+                + " surface area=" + c3.getArea()
                 + " volume=" + c3.getVolume());
+        System.out.println(c3.toString());
 
     }
 }
